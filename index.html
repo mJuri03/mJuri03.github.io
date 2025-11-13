@@ -1,113 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Juri Moon – Regulatory Affairs & Research. Document Intelligence, Clinical Operations, FDA Compliance."
+    />
+    <title>Juri Moon – Regulatory Affairs & Research</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juri Moon – Document Intelligence Demo</title>
+  <body>
+    <div id="root"></div>
 
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background: #f5f7fa;
-            color: #222;
-        }
-
-        .container {
-            max-width: 1100px;
-            margin: 40px auto;
-            padding: 20px;
-        }
-
-        .card {
-            background: #fff;
-            padding: 35px;
-            border-radius: 18px;
-            box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.08);
-            margin-bottom: 40px;
-        }
-
-        h1,
-        h2 {
-            margin-bottom: 12px;
-            font-weight: 700;
-            color: #111;
-        }
-
-        .sub {
-            font-size: 1.1rem;
-            margin-bottom: 25px;
-            color: #444;
-        }
-
-        video,
-        iframe {
-            width: 100%;
-            border-radius: 14px;
-            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
-        }
-
-        .btn {
-            margin-top: 18px;
-            display: inline-block;
-            padding: 12px 22px;
-            background: #0066ff;
-            color: white;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: 0.2s;
-        }
-
-        .btn:hover {
-            background: #004dcc;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 0.85rem;
-            color: #777;
-        }
-    </style>
-</head>
-
-<body>
-
-    <div class="container">
-
-        <!-- Demo Video Section -->
-        <div class="card">
-            <h1>Document Intelligence – Demo</h1>
-            <div class="sub">
-                Automated extraction & structure detection for scanned regulatory / QA / manufacturing documents.
-            </div>
-
-            <video controls playsinline>
-                <source src="demo.mp4" type="video/mp4">
-                Your browser does not support MP4 playback.
-            </video>
-        </div>
-
-        <!-- PDF Section -->
-        <div class="card">
-            <h2>Portfolio PDF</h2>
-            <div class="sub">Full overview of my Document Intelligence platform, work, and technical background.</div>
-
-            <iframe src="Juri,Moon-Portfolio.pdf#view=FitH" height="900px"></iframe>
-
-            <a class="btn" href="Juri,Moon-Portfolio.pdf" download>Download PDF</a>
-        </div>
-
-        <!-- Footer -->
-        <div class="footer">
-            © 2025 Juri Moon — Document Intelligence Platform
-        </div>
-
-    </div>
-
-</body>
-
+    <script type="module" src="/client/App.tsx"></script>
+  </body>
 </html>
